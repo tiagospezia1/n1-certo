@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Reset de estilos e configuração da fonte padrão */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    height: 100%;
+    background-image:url(./img/cute-pet-accessories-still-life-concept.jpg);
+    background-size: 100%;
+    color: black;
+  }
+
+/* Estilo do cabeçalho */
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 24px;
+}
+
+/* Estilo do menu de navegação */
+.menu-nav {
+    display: flex;
+    gap: 32px;
+}
+
+.menu {
+    color: black;
+    font-size: 32px;
+}
+
+/* Estilos gerais da seção inicial */
+.inicio {
+    color: #283C40;
+    font-size: 64px;
+}
+
+/* Container para imagens */
+.container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 20px;
+padding: 24px;
+}
+
+.titulo {
+    margin-top: 10%;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Estilo dos botões */
+.botao {
+    margin-top: 24px;
+    background-color: #F2968F;
+    font-size: 24px;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+}
+
+.botao1 {
+    color: white;
+}

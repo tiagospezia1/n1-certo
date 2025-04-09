@@ -1,0 +1,114 @@
+/* Importa a fonte Rubik */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Reseta margens, paddings e decorações padrão */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    height: 100%;
+    background-image:url(./img/cute-pet-accessories-still-life-concept.jpg);
+    background-size: 100%;
+    color: black;
+  }
+
+/* Define o layout do cabeçalho */
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 24px;
+}
+
+/* Configura o menu de navegação */
+.menu-nav {
+    display: flex;
+    gap: 32px;
+}
+
+/* Estiliza os itens do menu */
+.menu {
+    color: black;
+    font-size: 32px;
+}
+
+/* Define o layout principal da página */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Estiliza o formulário de contato */
+.contact-form {
+    max-width: 300px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estiliza inputs, textarea e botão */
+input, textarea, button {
+    width: 100%;
+    margin: 6px 0;
+    padding: 15px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estiliza o botão */
+button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estiliza o título principal */
+h2 {
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+/* Configura a seção de redes sociais */
+.rede-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+/* Estiliza o ícone do Instagram */
+.instagram {
+    color: black;
+}
+
+/* Estiliza o ícone do WhatsApp */
+.whatsapp {
+    color: black;
+}
+
+.endereco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.telefone-fixo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}

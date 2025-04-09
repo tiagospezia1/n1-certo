@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Rubik', sans-serif;
+
+}
+
+/* Remove margens e paddings padrão, desativa sublinhados em links e define o box-sizing como border-box. */
+
+body {
+  height: 100%;
+  background-image:url(./img/cute-pet-accessories-still-life-concept.jpg);
+  background-size: 100%;
+  color: black;
+}
+
+/* Define altura total para html e body, desativa o scroll horizontal e define a cor de fundo. */
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 24px;
+}
+
+/* Estiliza o cabeçalho com layout flexível, centralizando o conteúdo horizontalmente. */
+
+.menu-nav {
+  display: flex;
+  gap: 32px;
+}
+
+/* Define a fonte do menu de navegação, usa layout flexível e adiciona espaçamento entre itens. */
+
+.menu {
+  color: black;
+  font-size: 32px;
+}
+
+/* Define a cor e o tamanho da fonte dos itens do menu. */
+
+
+
+/* Estiliza a seção de serviços com padding, cor de fundo e centralização do texto. */
+
+.titulo {
+  text-align: center;
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+
+/* Define o estilo do título da seção, incluindo tamanho da fonte, margem inferior e cor. */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Define o container como flexível, permite quebra de linha e centraliza os itens com espaçamento. */
+
+.service-1, .service-2, .service-3 {
+  border-radius: 10px;
+  padding: 16px;
+  max-width: 300px;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.258);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Estiliza os cartões de serviço com borda, arredondamento, padding, largura máxima, alinhamento à esquerda, cor de fundo, sombra e transições. */
+
+.service-1:hover, .service-2:hover, .service-3:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Adiciona efeito de hover nos cartões, aumentando o tamanho e a intensidade da sombra. */
+
+.service-1 img, .service-2 img, .service-3 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Estiliza as imagens dos cartões, ajustando largura, altura, arredondamento e margem inferior. */
+
+.service-1 h3, .service-2 h3, .service-3 h3 {
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+/* Define o estilo dos títulos dos cartões, incluindo tamanho da fonte, cor e margens. */
+
+.service-1 p, .service-2 p, .service-3 p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+/* Define o estilo dos parágrafos dos cartões, incluindo tamanho da fonte, cor e margens. */

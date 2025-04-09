@@ -1,0 +1,89 @@
+/* Importa a fonte Rubik do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Define estilos globais para remover margens, paddings e definir a fonte padrão */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+
+}
+
+body {
+  height: 100%;
+  background-image:url(./img/cute-pet-accessories-still-life-concept.jpg);
+  background-size: 100%;
+  color: black;
+}
+
+/* Estilo para o cabeçalho principal da página */
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 24px;
+}
+
+/* Container para o menu de navegação */
+.menu-nav {
+  display: flex;
+  gap: 32px;
+}
+
+/* Estilo para os itens individuais do menu */
+.menu {
+  color: black;
+  font-size: 32px;
+}
+
+/* Título principal da seção de produtos */
+.titulo {
+  font-size: 65px;
+  margin-bottom: 20px;
+
+}
+
+/* Container flexível que organiza os produtos */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Estilo para os cartões individuais de produtos */
+.product-1, .product-2, .product-3, .product-4 {
+  border-radius: 10px;
+  padding: 16px;
+  max-width: 300px;
+  background-color: rgba(255, 255, 255, 0.258);
+  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Efeito de hover para os cartões de produtos */
+.product-1:hover, .product-2:hover, .product-3:hover, .product-4:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para as imagens dos produtos */
+.product-1 img, .product-2 img, .product-3 img, .product-4 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para os títulos dos produtos */
+.product-1 h3, .product-2 h3, .product-3 h3, .product-4 h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+/* Estilo para as descrições dos produtos */
+.product-1 p, .product-2 p, .product-3 p, .product-4 p {
+  font-size: 16px;
+  margin: 8px 0;
+}
